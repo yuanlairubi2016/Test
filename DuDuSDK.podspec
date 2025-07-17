@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'DuDuSDK'      # SDK 名称（如 AMapNavi）
-  s.version      = '1.0.1'            # 版本号
+  s.version      = '1.0.2'            # 版本号
   s.summary      = '这是一个测试功能的SDK'
   s.homepage     = 'https://github.com/yuanlairubi2016/Test'  # 项目主页
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { '作者名' => '1064124945@qq.com' }
   s.platform     = :ios, '12.0'        # 支持的最低系统版本
-  s.source       = { :git => 'git@github.com:yuanlairubi2016/Test.git', :tag => s.version }  # 源码地址
+  s.source       = { :git => 'https://github.com/yuanlairubi2016/Test.git', :tag => s.version }  # 源码地址
   s.static_framework = true
   s.vendored_frameworks = 'Test/DuDuSDK.xcframework'  # 预编译框架路径
 
