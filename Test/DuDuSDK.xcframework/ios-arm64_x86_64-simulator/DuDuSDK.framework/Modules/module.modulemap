@@ -1,0 +1,6 @@
+framework module DuDuSDK {
+  umbrella header "DuDuSDK.h"
+  export *
+
+  module * { export * }
+}
