@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'        # 支持的最低系统版本
   s.source       = { :git => 'https://github.com/yuanlairubi2016/Test.git', :tag => s.version }  # 源码地址
   s.static_framework = true
-  s.vendored_frameworks = 'Du01SDK'  # 预编译框架路径
+  s.vendored_frameworks = 'Du01SDK.xcframework'  # 预编译框架路径
   # s.swift_versions=['5']
     # 如果导入了framework
   # s.frameworks = 'OpenAL', 'Accelerate'
