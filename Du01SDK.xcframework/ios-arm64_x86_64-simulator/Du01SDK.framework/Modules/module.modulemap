@@ -1,0 +1,6 @@
+framework module Du01SDK {
+  umbrella header "Du01SDK.h"
+  export *
+
+  module * { export * }
+}
