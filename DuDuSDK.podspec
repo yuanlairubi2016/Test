@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'DuDuSDK'      # SDK 名称（如 AMapNavi）
-  s.version      = '1.0.3'            # 版本号
+  s.version      = '1.0.4'            # 版本号
   s.summary      = '这是一个测试功能的SDK'
   s.homepage     = 'https://github.com/yuanlairubi2016/Test'  # 项目主页
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
